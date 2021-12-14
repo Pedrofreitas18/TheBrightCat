@@ -1,3 +1,5 @@
+https://github.com/Pedrofreitas18/TheBrightCat.git
+
 TheBrightCat é um site destinado a ser um site anunciante de roupas, onde existem 2 tipos de usuários: Usuário padrão e Adm.
 
 
@@ -47,9 +49,16 @@ arquivo de db em Projeto\app\Utils\dbConnect.php
 
 build server
 
-Deve ser executado pelo xamp, colocando o projeto dentro do diretório C:\xampp\htdocs
+Deve ser executado pelo xamp, colocando o diretorio "Projeto" dentro do diretório C:\xampp\htdocs
 
 necessita ter o xamp e Mysql na maquina onde será executado
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+SP3013154 Pedro Brenicci Freitas
+
+Sou o únic integrante do meu grupo.
 
 
 
