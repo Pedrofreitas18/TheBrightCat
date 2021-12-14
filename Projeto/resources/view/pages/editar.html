@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Produto</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="card mb-4">
+                    <a href="#!"><img class="card-img-top" src="{{imagemlink}}" alt="..." /></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-header">Side Widget</div>
+                    <div class="card-body">
+                        <form action="{{URL}}/atualizar/{{id}}" class="form-control" method="post">
+                            <label for="nome">Nome do produto:</label><br>
+                            <input type="text" id="nome" name="nome" value="{{nome}}"><br><br>
+                            
+                            <label for="estampa">Nome da Estampa:</label><br>
+                            <input type="text" id="estampa" name="estampa" value="{{estampa}}"><br><br>
+                    
+                            <label for="preco">Preço:</label><br>
+                            <input type="amount" id="preco" name="preco" value="{{preco}}"><br><br>
+                    
+                            <label for="imagemlink">URL imagem:</label><br>
+                            <input type="text" id="imagemlink" name="imagemlink" value="{{imagemlink}}"><br><br>
+                            
+                            <input class="btn btn-primary" type="submit" value="Atualizar">
+                            <a class="btn btn-primary" style="background-color: rgb(207, 31, 31);" href="{{URL}}/excluir/{{id}}">Excluir</a>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
